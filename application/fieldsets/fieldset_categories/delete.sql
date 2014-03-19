@@ -1,0 +1,1 @@
+DROP TABLE `fieldset_categories_mapping`,`fieldset_categories`,`fieldset_categories_data`;

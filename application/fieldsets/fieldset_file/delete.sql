@@ -1,0 +1,1 @@
+DROP TABLE `fieldset_file_mapping`,`fieldset_file_data`,`fieldset_file`;

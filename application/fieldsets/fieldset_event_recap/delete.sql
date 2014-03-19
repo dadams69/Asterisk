@@ -1,0 +1,1 @@
+DROP TABLE `fieldset_event_recap_mapping`,`fieldset_event_recap`;

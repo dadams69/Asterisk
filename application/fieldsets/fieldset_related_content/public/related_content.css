@@ -1,0 +1,32 @@
+    #related_content_sortable_list{
+        padding-top: 2px;
+    }
+    .related_content_container {
+        display: block;
+        margin: 6px 2px 6px 2px;
+    } 
+    .related_content_container .related_content_text {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 4px;
+        text-align: left;
+        vertical-align: middle;
+        display: inline-block;
+        overflow: hidden;
+    } 
+    .related_content_container .related_content_remove{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 0px;
+        text-align: center;
+        vertical-align: middle;
+        display: inline-block;
+    }    
+    
+    input.related_content_autocomplete{
+        margin: 6px 2px 6px 0px;
+    }
+    
+    

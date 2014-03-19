@@ -1,0 +1,1 @@
+DROP TABLE `fieldset_points_on_map_data`,`fieldset_points_on_map`;

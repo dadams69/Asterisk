@@ -1,0 +1,77 @@
+/* jQuery Resize And Crop (jrac) */
+
+.jrac_container {}
+
+.jrac_viewport {
+  position: relative;
+  overflow: auto; 
+  border:1px solid #ccc;
+  width:600px;
+  height:450px;
+  background-image: url('viewport_background.gif');
+}
+
+.jrac_loading {
+  background-image: url('loading.gif');
+  background-repeat:no-repeat;
+  background-position:center;
+  position: absolute;
+  top:0;left:0;right:0;bottom:0;
+}
+
+.jrac_crop {
+  position: absolute;
+  border: 1px solid yellow;
+}
+
+.jrac_crop_drag_handler {
+  position: absolute;
+  top:0;left:0;right:0;bottom:0;
+  background-color: #fff;
+  opacity: .3; /* FX/Opera/Safari/Chrome */
+  -ms-filter: "alpha(opacity=30)"; /* IE8 */
+  filter: alpha(opacity = 30); /* IE6/IE7 */
+}
+
+.jrac_viewport img, .jrac_crop_drag_handler {
+  cursor: pointer;
+}
+
+.jrac_viewport img#image_box{
+  margin: 1px;
+}
+
+.image_edit_modal{
+    width: 880px; 
+    margin: 0 0 0 -440px;
+}
+
+div.image_edit_modal .modal-body .image_edit_container{
+    float: left;
+    
+}
+
+div.image_edit_modal .modal-body .coords_container{
+    float: left;
+    margin-left: 15px;
+}
+
+
+.jrac_container .slider{
+    margin: 10px 0 10px 0;
+    border-radius: 4px;
+    border: 1px solid #AAAAAA;
+    height: 1.4em;
+    background-color: #F1F1F1;
+    background-image: linear-gradient(#FFFFFF, #FFFFFF 25%, #F1F1F1);
+}
+.jrac_container .slider span{
+    display:block;
+    width: 85px;
+    margin: 0 auto;
+}
+.jrac_container .slider .ui-slider-handle{
+    height: 1.85em;
+    opacity: 0.8;
+    border-radius: 4px;
+}

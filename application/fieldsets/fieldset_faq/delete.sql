@@ -1,0 +1,1 @@
+DROP TABLE `fieldset_faq_data`,`fieldset_faq`;

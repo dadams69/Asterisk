@@ -1,0 +1,7 @@
+    #slideshow_sortable_list{
+        padding-top: 2px;
+    }
+    #slideshow_sortable_list .file_item_container {
+        display: block;
+        margin: 6px 2px 6px 2px;
+    } 

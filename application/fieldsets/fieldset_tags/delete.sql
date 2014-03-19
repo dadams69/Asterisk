@@ -1,0 +1,1 @@
+DROP TABLE `fieldset_tags_mapping`,`fieldset_tags_data`,`fieldset_tags`;

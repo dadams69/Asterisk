@@ -1,0 +1,1 @@
+DROP TABLE `fieldset_author_mapping`,`fieldset_author_data`,`fieldset_author`;

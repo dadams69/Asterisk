@@ -1,0 +1,72 @@
+    #author_list_modal .btn{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: normal;
+    }
+    
+    a.modal_action_create{
+        margin: 10px 0 10px 510px;
+    }
+
+    .author_partial {
+        margin-left: 0px;
+        z-index: 10;
+        height:60px;
+        overflow:hidden;
+        /*position:relative;*/
+        float: left;
+        width: 565px;
+        background-color: #ffffff;
+    }
+    
+    .author_partial .author_container { 
+        margin: 0px;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        position:relative;
+        
+    }
+
+    .author_partial .author_container .author_name_position { 
+        font-size: 12px; 
+        line-height: 12px; 
+        display: block;
+        margin: 8px 5px 8px 5px;
+    }
+    .author_partial .author_container .author_name_position span{ 
+        color: #666666;
+    }
+    .author_partial .btn {
+        width:250px; 
+        display: inline-block; 
+        text-align: center; 
+        position:relative;bottom:0px;}    
+    
+    .author_list_modal_results {
+        clear: both; 
+        padding-top: 0px; 
+    }
+    
+    .author_list_modal_results ul li.author_item{
+        margin-bottom: 3px;
+    }
+    
+    .author_list_modal_results p{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        line-height: 12px;
+    }    
+    
+    button.modal_action_form_save{
+        margin-left: 130px;
+    }
+    
+    a.modal_action_form_cancel{
+        font-weight: normal;
+    }
+    
+    #author_list_modal .well{
+        margin-bottom: -10px;
+    }
